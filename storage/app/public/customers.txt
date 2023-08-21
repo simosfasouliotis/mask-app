@@ -1,0 +1,14 @@
+simos:  6945687869fsf@ghg.gr
+thodoris: 1(234)567-890,thodoris@test.com
+akis:  6945687869f,akis@ghggr
+Ορέστης:  6945612345,fsf@ghg.gr
+georgios:  6773812345,fsf@gmail.gr
+goukilanas: 6773812345
+tasos :
+loumpas: dfs@gmail.gr
+markos: 6938443000,not-a-valid@email
+vasilis: 6938443001,vasilis@domain.gr
+manolis: 123a,manolis@domain.gr
+minos: +30 111 111 1111,minos@domain.gr
+fotis: +210211 1111,fotis@domain.gr
+:+30 111 111 1111,noname@domain.gr
