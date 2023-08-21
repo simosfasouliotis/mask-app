@@ -5,6 +5,11 @@ namespace App\Http\Controllers;
 use App\Services\SeedingService;
 use Illuminate\Http\Response;
 
+/**
+ * Class MaskingController
+ *
+ * @package App\Http\Controllers
+ */
 class MaskingController extends Controller
 {
     public SeedingService $seedingService;
