@@ -21,8 +21,8 @@ class MaskingController extends Controller
     {
         // Seed Fake DB Data
         $dbData = $this->seedingService->seedDBData();
-        $fileData = $this->seedingService->seedFileData();
-        $validData = $dbData->merge($fileData[0]);
-        return response()->view('results', ['validData' => $validData, 'invalidLines' => $fileData[1], 'invalidData' => $fileData[2]]);
+        [$validCustomers, $invalidLines, $invalidCustomers] = $this->seedingService->seedFileData();
+        $validData = $dbData->merge($validCustomers);
+        return response()->view('results', ['validData' => $validData, 'invalidLines' => $invalidLines, 'invalidData' => $invalidCustomers]);
     }
 }
